@@ -1,0 +1,71 @@
+.total-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total-price-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e4c59;
+}
+@media screen and (min-width: 768px) {
+  .total-price-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.total-price-icon-and-price {
+  display: flex;
+  align-items: center;
+}
+
+.total-price-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 6px;
+}
+@media screen and (min-width: 768px) {
+  .total-price-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.total-price {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #3e4c59;
+}
+@media screen and (min-width: 768px) {
+  .total-price {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.place-order-button {
+  padding: 8px 16px;
+  width: 99px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

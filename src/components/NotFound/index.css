@@ -1,0 +1,61 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.not-found-image {
+  height: 296.9958190917969px;
+  width: 268.99359130859375px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    height: 396.9958190917969px;
+    width: 368.99359130859375px;
+  }
+}
+
+.not-found-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.not-found-link {
+  text-decoration: none;
+}
+
+.not-found-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #475569;
+}
+
+.not-found-button {
+  padding: 12px 24px;
+  gap: 8px;
+  width: 123px;
+  height: 48px;
+  background: #f7931e;
+  border-radius: 12px;
+  flex: none;
+  outline: none;
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}

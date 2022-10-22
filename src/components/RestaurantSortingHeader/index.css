@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.popular-restaurants-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #183b56;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurants-heading {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #183b56;
+    margin-top: 60px;
+  }
+}
+
+.popular-restaurants-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurants-description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #64748b;
+  }
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+}
+
+.sort-icon {
+  height: 15px;
+  width: 15px;
+  border-radius: 0px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .sort-icon {
+    height: 24px;
+    width: 24px;
+    border-radius: 0px;
+    margin-right: 15px;
+  }
+}
+
+.sort-by-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .sort-by-heading {
+    font-size: 16px;
+  }
+}
+
+.select-options {
+  background-color: #ffffff;
+  border-radius: 16px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px;
+  padding-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .select-options {
+    padding-top: 60px;
+  }
+}
+
+.select-container {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #475569;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .select-container {
+    font-size: 16px;
+  }
+}
